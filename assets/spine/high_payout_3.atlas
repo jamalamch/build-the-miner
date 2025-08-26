@@ -1,0 +1,33 @@
+high_payout_3.png
+	size: 812, 200
+	filter: Linear, Linear
+bg
+	bounds: 195, 19, 175, 179
+	offsets: 1, 1, 177, 181
+bottom
+	bounds: 657, 98, 114, 100
+	offsets: 1, 1, 116, 103
+coin
+	bounds: 773, 138, 33, 30
+	offsets: 1, 1, 35, 32
+coin2
+	bounds: 773, 170, 37, 28
+	offsets: 1, 1, 39, 30
+frame
+	bounds: 2, 7, 191, 191
+	offsets: 1, 1, 193, 193
+frame_glow
+	bounds: 540, 72, 115, 126
+	offsets: 40, 35, 193, 193
+glow
+	bounds: 372, 33, 166, 165
+	offsets: 3, 4, 172, 172
+gold_coins
+	bounds: 744, 14, 82, 53
+	offsets: 1, 58, 84, 112
+	rotate: 90
+spark
+	bounds: 657, 11, 85, 85
+top
+	bounds: 540, 2, 103, 68
+	offsets: 1, 1, 105, 70

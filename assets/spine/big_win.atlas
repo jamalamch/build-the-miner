@@ -1,0 +1,22 @@
+big_win.png
+size:1856,1460
+filter:Linear,Linear
+Light Effect
+bounds:2,2,1456,1456
+offsets:1,1,1458,1458
+big
+bounds:1460,99,386,176
+offsets:1,1,388,178
+placeholder
+bounds:1665,1457,1,1
+stone
+bounds:1460,1252,203,206
+offsets:1,1,205,208
+win
+bounds:1660,838,412,194
+offsets:1,1,414,196
+rotate:90
+wood_sign
+bounds:1460,277,973,198
+offsets:1,1,975,200
+rotate:90

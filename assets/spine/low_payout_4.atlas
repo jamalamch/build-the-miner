@@ -1,0 +1,13 @@
+low_payout_4.png
+	size: 427, 191
+	filter: Linear, Linear
+J
+	bounds: 363, 81, 62, 108
+	offsets: 1, 1, 64, 110
+base
+	bounds: 2, 2, 187, 191
+	offsets: 1, 1, 189, 193
+	rotate: 90
+glow
+	bounds: 195, 24, 166, 165
+	offsets: 3, 4, 172, 172

@@ -1,0 +1,27 @@
+high_payout_2.png
+	size: 297, 540
+	filter: Linear, Linear
+bg
+	bounds: 2, 170, 175, 179
+	offsets: 1, 1, 177, 181
+	rotate: 90
+corners
+	bounds: 195, 237, 141, 52
+	offsets: 1, 1, 143, 54
+	rotate: 90
+frame
+	bounds: 2, 347, 191, 191
+	offsets: 1, 1, 193, 193
+frame_glow
+	bounds: 169, 33, 115, 126
+	offsets: 40, 35, 193, 193
+	rotate: 90
+glow
+	bounds: 2, 2, 166, 165
+	offsets: 3, 4, 172, 172
+	rotate: 90
+handle
+	bounds: 195, 380, 99, 158
+	offsets: 1, 1, 128, 160
+spark
+	bounds: 183, 150, 85, 85

@@ -1,0 +1,99 @@
+scatter.png
+	size: 1220, 271
+	filter: Linear, Linear
+bg
+	bounds: 372, 101, 170, 168
+	offsets: 1, 1, 172, 170
+frame
+	bounds: 2, 78, 190, 191
+	offsets: 1, 1, 192, 193
+frame_sweep_0000
+	bounds: 544, 109, 14, 59
+	offsets: 48, 49, 192, 193
+	rotate: 90
+frame_sweep_0001
+	bounds: 97, 11, 27, 94
+	offsets: 48, 49, 192, 193
+	rotate: 90
+frame_sweep_0002
+	bounds: 1123, 114, 38, 95
+	offsets: 48, 49, 192, 193
+	rotate: 90
+frame_sweep_0003
+	bounds: 1021, 5, 56, 107
+	offsets: 40, 37, 192, 193
+	rotate: 90
+frame_sweep_0004
+	bounds: 809, 86, 70, 122
+	offsets: 37, 32, 192, 193
+frame_sweep_0005
+	bounds: 881, 92, 80, 129
+	offsets: 37, 35, 192, 193
+	rotate: 90
+frame_sweep_0006
+	bounds: 194, 2, 90, 136
+	offsets: 36, 30, 192, 193
+	rotate: 90
+frame_sweep_0007
+	bounds: 372, 2, 97, 136
+	offsets: 37, 30, 192, 193
+	rotate: 90
+frame_sweep_0008
+	bounds: 673, 107, 101, 134
+	offsets: 42, 30, 192, 193
+	rotate: 90
+frame_sweep_0009
+	bounds: 881, 174, 95, 134
+	offsets: 49, 30, 192, 193
+	rotate: 90
+frame_sweep_0010
+	bounds: 510, 2, 97, 134
+	offsets: 49, 30, 192, 193
+	rotate: 90
+frame_sweep_0011
+	bounds: 646, 5, 100, 132
+	offsets: 51, 32, 192, 193
+	rotate: 90
+frame_sweep_0012
+	bounds: 1017, 177, 92, 128
+	offsets: 61, 36, 192, 193
+	rotate: 90
+frame_sweep_0013
+	bounds: 898, 7, 83, 121
+	offsets: 71, 45, 192, 193
+	rotate: 90
+frame_sweep_0014
+	bounds: 780, 9, 75, 116
+	offsets: 82, 49, 192, 193
+	rotate: 90
+frame_sweep_0015
+	bounds: 1147, 154, 64, 115
+	offsets: 92, 49, 192, 193
+frame_sweep_0016
+	bounds: 1130, 4, 48, 108
+	offsets: 102, 50, 192, 193
+frame_sweep_0017
+	bounds: 2, 6, 32, 93
+	offsets: 112, 52, 192, 193
+	rotate: 90
+frame_sweep_0018
+	bounds: 332, 27, 21, 65
+	offsets: 123, 79, 192, 193
+frame_sweep_0019
+	bounds: 780, 86, 10, 19
+	offsets: 133, 125, 192, 193
+golden_axe
+	bounds: 1021, 63, 100, 112
+	offsets: 1, 1, 102, 114
+golden_axe2
+	bounds: 544, 125, 127, 144
+	offsets: 1, 1, 129, 146
+light
+	bounds: 194, 94, 176, 175
+	offsets: 2, 2, 179, 179
+plate
+	bounds: 2, 40, 177, 36
+	offsets: 1, 1, 179, 38
+scatter
+	bounds: 673, 210, 206, 59
+	offsets: 1, 2, 208, 63

@@ -1,0 +1,148 @@
+high_payout_1.png
+	size: 1444, 275
+	filter: Linear, Linear
+bg
+	bounds: 195, 95, 175, 178
+	offsets: 1, 1, 177, 180
+body
+	bounds: 540, 119, 140, 154
+	offsets: 1, 1, 146, 160
+clip
+	bounds: 170, 18, 17, 23
+	offsets: 1, 1, 19, 25
+	rotate: 90
+fire
+	bounds: 1313, 2, 40, 34
+	offsets: 1, 1, 42, 36
+	rotate: 90
+fire_0000
+	bounds: 1355, 193, 80, 80
+fire_0001
+	bounds: 1355, 193, 80, 80
+fire_0002
+	bounds: 682, 85, 80, 80
+fire_0003
+	bounds: 764, 87, 80, 80
+fire_0004
+	bounds: 846, 87, 80, 80
+fire_0005
+	bounds: 928, 88, 80, 80
+fire_0006
+	bounds: 739, 3, 80, 80
+fire_0007
+	bounds: 821, 5, 80, 80
+fire_0008
+	bounds: 903, 5, 80, 80
+fire_0009
+	bounds: 985, 6, 80, 80
+fire_0010
+	bounds: 1067, 58, 80, 80
+fire_0011
+	bounds: 195, 13, 80, 80
+fire_0012
+	bounds: 277, 13, 80, 80
+fire_0013
+	bounds: 372, 26, 80, 80
+fire_0014
+	bounds: 454, 26, 80, 80
+fire_0015
+	bounds: 1158, 125, 80, 80
+fire_0016
+	bounds: 1149, 43, 80, 80
+fire_0017
+	bounds: 1240, 118, 80, 80
+fire_0018
+	bounds: 1231, 36, 80, 80
+fire_0019
+	bounds: 1322, 111, 80, 80
+frame
+	bounds: 2, 82, 191, 191
+	offsets: 1, 1, 193, 193
+frame_glow
+	bounds: 540, 2, 115, 126
+	offsets: 40, 35, 193, 193
+	rotate: 90
+glow
+	bounds: 372, 108, 166, 165
+	offsets: 3, 4, 172, 172
+lamp_sweep_0000
+	bounds: 1010, 92, 15, 29
+	offsets: 75, 84, 225, 225
+	rotate: 90
+lamp_sweep_0001
+	bounds: 170, 37, 21, 43
+	offsets: 75, 80, 225, 225
+lamp_sweep_0002
+	bounds: 1349, 15, 27, 63
+	offsets: 75, 76, 225, 225
+	rotate: 90
+lamp_sweep_0003
+	bounds: 1067, 4, 52, 75
+	offsets: 66, 72, 225, 225
+	rotate: 90
+lamp_sweep_0004
+	bounds: 2, 2, 58, 78
+	offsets: 64, 69, 225, 225
+lamp_sweep_0005
+	bounds: 1313, 44, 65, 80
+	offsets: 63, 67, 225, 225
+	rotate: 90
+lamp_sweep_0006
+	bounds: 668, 2, 69, 81
+	offsets: 64, 69, 225, 225
+lamp_sweep_0007
+	bounds: 1261, 200, 73, 92
+	offsets: 65, 71, 225, 225
+	rotate: 90
+lamp_sweep_0008
+	bounds: 978, 176, 76, 97
+	offsets: 70, 71, 225, 225
+lamp_sweep_0009
+	bounds: 682, 167, 72, 106
+	offsets: 75, 63, 225, 225
+lamp_sweep_0010
+	bounds: 62, 8, 72, 106
+	offsets: 75, 62, 225, 225
+	rotate: 90
+lamp_sweep_0011
+	bounds: 1056, 202, 71, 100
+	offsets: 76, 71, 225, 225
+	rotate: 90
+lamp_sweep_0012
+	bounds: 905, 170, 71, 103
+	offsets: 78, 71, 225, 225
+lamp_sweep_0013
+	bounds: 756, 169, 73, 104
+	offsets: 85, 71, 225, 225
+lamp_sweep_0014
+	bounds: 831, 169, 72, 104
+	offsets: 89, 71, 225, 225
+lamp_sweep_0015
+	bounds: 1158, 207, 66, 101
+	offsets: 94, 72, 225, 225
+	rotate: 90
+lamp_sweep_0016
+	bounds: 1056, 140, 60, 96
+	offsets: 98, 74, 225, 225
+	rotate: 90
+lamp_sweep_0017
+	bounds: 1010, 109, 42, 65
+	offsets: 105, 90, 225, 225
+lamp_sweep_0018
+	bounds: 1144, 7, 34, 59
+	offsets: 113, 96, 225, 225
+	rotate: 90
+lamp_sweep_0019
+	bounds: 1404, 100, 27, 48
+	offsets: 120, 107, 225, 225
+lt_clip
+	bounds: 1205, 2, 13, 31
+	offsets: 1, 1, 15, 33
+	rotate: 90
+rt_clip
+	bounds: 1205, 17, 24, 24
+	offsets: 1, 1, 26, 26
+top
+	bounds: 1404, 150, 41, 38
+	offsets: 1, 1, 43, 40
+	rotate: 90

@@ -1,0 +1,10 @@
+basegame.png
+	size: 1670, 1542
+	filter: Linear, Linear
+	scale: 0.8
+Smoke
+	bounds: 1542, 1324, 216, 126
+	offsets: 10, 0, 240, 126
+	rotate: 90
+base_bg
+	bounds: 2, 2, 1538, 1538

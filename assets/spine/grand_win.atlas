@@ -1,0 +1,32 @@
+grand_win.png
+size:2720,1464
+filter:Linear,Linear
+GRAND
+bounds:2540,11,771,176
+offsets:1,1,773,178
+rotate:90
+Light Effect
+bounds:2,5,1456,1456
+offsets:1,1,1458,1458
+Meter Panel
+bounds:1460,778,910,683
+offsets:1,1,912,685
+axe
+bounds:2098,82,440,494
+offsets:1,1,442,496
+character
+bounds:1460,111,465,636
+offsets:1,1,467,638
+rotate:90
+heart
+bounds:2372,784,298,263
+offsets:1,1,300,265
+placeholder
+bounds:2,2,1,1
+win
+bounds:2372,1049,412,194
+offsets:1,1,414,196
+rotate:90
+wood_sign
+bounds:1460,578,972,198
+offsets:1,1,974,200

@@ -1,0 +1,139 @@
+congratulation_popup.png
+	size: 1968, 396
+	filter: Linear, Linear
+	scale: 0.5
+1_Character
+	bounds: 972, 80, 144, 203
+	rotate: 90
+1_freespin
+	bounds: 616, 223, 328, 73
+1_placeholder
+	bounds: 1463, 238, 96, 60
+2, 3, 4_axe
+	bounds: 616, 23, 176, 198
+2_placeholder
+	bounds: 1713, 281, 174, 38
+3_hold and spinner
+	bounds: 517, 2, 294, 97
+	rotate: 90
+4_ARE NOW X10
+	bounds: 946, 226, 248, 70
+4_freespin
+	bounds: 1392, 368, 315, 26
+	offsets: 0, 13, 315, 60
+axe
+	bounds: 794, 23, 176, 198
+base
+	bounds: 2, 17, 513, 377
+	offsets: 0, 1, 513, 378
+congratulations
+	bounds: 517, 298, 483, 96
+congratulations_sweep_0000
+	bounds: 1696, 34, 39, 52
+	offsets: 112, 16, 483, 96
+	rotate: 90
+congratulations_sweep_0001
+	bounds: 1644, 29, 50, 54
+	offsets: 111, 16, 483, 96
+congratulations_sweep_0002
+	bounds: 1574, 75, 61, 60
+	offsets: 111, 14, 483, 96
+	rotate: 90
+congratulations_sweep_0003
+	bounds: 1574, 2, 71, 68
+	offsets: 109, 9, 483, 96
+	rotate: 90
+congratulations_sweep_0004
+	bounds: 1881, 323, 83, 71
+	offsets: 109, 9, 483, 96
+congratulations_sweep_0005
+	bounds: 1423, 2, 93, 73
+	offsets: 109, 9, 483, 96
+	rotate: 90
+congratulations_sweep_0006
+	bounds: 1196, 223, 103, 73
+	offsets: 110, 10, 483, 96
+congratulations_sweep_0007
+	bounds: 1866, 82, 114, 73
+	offsets: 111, 13, 483, 96
+	rotate: 90
+congratulations_sweep_0008
+	bounds: 1411, 97, 125, 71
+	offsets: 111, 16, 483, 96
+	rotate: 90
+congratulations_sweep_0009
+	bounds: 1338, 86, 136, 71
+	offsets: 112, 18, 483, 96
+	rotate: 90
+congratulations_sweep_0010
+	bounds: 1145, 2, 145, 69
+	offsets: 115, 21, 483, 96
+congratulations_sweep_0011
+	bounds: 1561, 298, 150, 68
+	offsets: 121, 23, 483, 96
+congratulations_sweep_0012
+	bounds: 1708, 75, 153, 67
+	offsets: 131, 25, 483, 96
+congratulations_sweep_0013
+	bounds: 1708, 144, 156, 67
+	offsets: 141, 26, 483, 96
+congratulations_sweep_0014
+	bounds: 1640, 136, 160, 66
+	offsets: 150, 27, 483, 96
+	rotate: 90
+congratulations_sweep_0015
+	bounds: 1708, 213, 163, 66
+	offsets: 160, 27, 483, 96
+congratulations_sweep_0016
+	bounds: 1392, 300, 167, 66
+	offsets: 171, 27, 483, 96
+congratulations_sweep_0017
+	bounds: 972, 8, 171, 70
+	offsets: 181, 23, 483, 96
+congratulations_sweep_0018
+	bounds: 1713, 321, 166, 73
+	offsets: 192, 20, 483, 96
+congratulations_sweep_0019
+	bounds: 1301, 224, 160, 74
+	offsets: 202, 18, 483, 96
+congratulations_sweep_0020
+	bounds: 1564, 138, 158, 74
+	offsets: 213, 17, 483, 96
+	rotate: 90
+congratulations_sweep_0021
+	bounds: 1177, 73, 148, 77
+	offsets: 224, 13, 483, 96
+	rotate: 90
+congratulations_sweep_0022
+	bounds: 1256, 84, 137, 80
+	offsets: 236, 8, 483, 96
+	rotate: 90
+congratulations_sweep_0023
+	bounds: 1292, 2, 129, 80
+	offsets: 248, 7, 483, 96
+congratulations_sweep_0024
+	bounds: 1484, 117, 119, 78
+	offsets: 259, 7, 483, 96
+	rotate: 90
+congratulations_sweep_0025
+	bounds: 1498, 9, 106, 74
+	offsets: 271, 8, 483, 96
+	rotate: 90
+congratulations_sweep_0026
+	bounds: 1873, 198, 93, 65
+	offsets: 284, 15, 483, 96
+congratulations_sweep_0027
+	bounds: 1889, 265, 77, 56
+	offsets: 296, 21, 483, 96
+congratulations_sweep_0028
+	bounds: 1644, 85, 62, 49
+	offsets: 310, 24, 483, 96
+congratulations_sweep_0029
+	bounds: 1750, 31, 49, 42
+	offsets: 323, 26, 483, 96
+press
+	bounds: 1002, 298, 293, 14
+wood_sign
+	bounds: 1002, 314, 388, 80
+you have won
+	bounds: 616, 7, 144, 14

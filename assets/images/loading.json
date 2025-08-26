@@ -1,0 +1,279 @@
+{
+  "frames": {
+    "footerText": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 710,
+        "h": 101
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 710,
+        "h": 101
+      },
+      "sourceSize": {
+        "w": 710,
+        "h": 105
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "character": {
+      "frame": {
+        "x": 1,
+        "y": 104,
+        "w": 458,
+        "h": 646
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 6,
+        "y": 22,
+        "w": 458,
+        "h": 646
+      },
+      "sourceSize": {
+        "w": 468,
+        "h": 669
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Logo": {
+      "frame": {
+        "x": 1,
+        "y": 564,
+        "w": 569,
+        "h": 327
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 1,
+        "w": 569,
+        "h": 327
+      },
+      "sourceSize": {
+        "w": 577,
+        "h": 332
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "startbutton": {
+      "frame": {
+        "x": 713,
+        "y": 1,
+        "w": 561,
+        "h": 194
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 68,
+        "y": 46,
+        "w": 561,
+        "h": 194
+      },
+      "sourceSize": {
+        "w": 688,
+        "h": 295
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "GoldenStroke": {
+      "frame": {
+        "x": 649,
+        "y": 104,
+        "w": 551,
+        "h": 62
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 1,
+        "y": 0,
+        "w": 551,
+        "h": 62
+      },
+      "sourceSize": {
+        "w": 552,
+        "h": 62
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "BaseStrokepanel": {
+      "frame": {
+        "x": 1,
+        "y": 893,
+        "w": 544,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 544,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 544,
+        "h": 54
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "BaseColored": {
+      "frame": {
+        "x": 909,
+        "y": 1,
+        "w": 531,
+        "h": 43
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 531,
+        "h": 43
+      },
+      "sourceSize": {
+        "w": 531,
+        "h": 43
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Stripe": {
+      "frame": {
+        "x": 1,
+        "y": 949,
+        "w": 522,
+        "h": 43
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 9,
+        "y": 0,
+        "w": 522,
+        "h": 43
+      },
+      "sourceSize": {
+        "w": 531,
+        "h": 43
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "highlightBottom": {
+      "frame": {
+        "x": 954,
+        "y": 1,
+        "w": 511,
+        "h": 7
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 6,
+        "w": 511,
+        "h": 7
+      },
+      "sourceSize": {
+        "w": 511,
+        "h": 13
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "highlightTop": {
+      "frame": {
+        "x": 963,
+        "y": 1,
+        "w": 511,
+        "h": 13
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 511,
+        "h": 13
+      },
+      "sourceSize": {
+        "w": 511,
+        "h": 13
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "GoldenStrokeMain": {
+      "frame": {
+        "x": 525,
+        "y": 949,
+        "w": 241,
+        "h": 28
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 241,
+        "h": 28
+      },
+      "sourceSize": {
+        "w": 241,
+        "h": 28
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "loading.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 977,
+      "h": 993
+    },
+    "scale": 1
+  }
+}

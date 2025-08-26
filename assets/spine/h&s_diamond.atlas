@@ -1,0 +1,160 @@
+h&s_diamond.png
+	size: 1788, 237
+	filter: Linear, Linear
+Rectangle 1
+	bounds: 2, 44, 191, 191
+	offsets: 1, 1, 193, 193
+bg
+	bounds: 387, 65, 170, 168
+	offsets: 1, 1, 172, 170
+	rotate: 90
+diamond
+	bounds: 955, 101, 134, 113
+	rotate: 90
+diamond_sweep_0000
+	bounds: 1600, 4, 31, 51
+	offsets: 24, 39, 134, 113
+diamond_sweep_0001
+	bounds: 60, 3, 39, 58
+	offsets: 22, 36, 134, 113
+	rotate: 90
+diamond_sweep_0002
+	bounds: 1718, 20, 44, 65
+	offsets: 22, 31, 134, 113
+diamond_sweep_0003
+	bounds: 1703, 87, 47, 70
+	offsets: 22, 29, 134, 113
+diamond_sweep_0004
+	bounds: 1652, 76, 49, 77
+	offsets: 23, 24, 134, 113
+diamond_sweep_0005
+	bounds: 1633, 5, 50, 83
+	offsets: 25, 20, 134, 113
+	rotate: 90
+diamond_sweep_0006
+	bounds: 1573, 144, 51, 91
+	offsets: 28, 14, 134, 113
+diamond_sweep_0007
+	bounds: 1130, 2, 51, 97
+	offsets: 31, 9, 134, 113
+diamond_sweep_0008
+	bounds: 524, 10, 53, 101
+	offsets: 34, 7, 134, 113
+	rotate: 90
+diamond_sweep_0009
+	bounds: 1183, 3, 53, 98
+	offsets: 38, 10, 134, 113
+diamond_sweep_0010
+	bounds: 939, 2, 53, 95
+	offsets: 41, 13, 134, 113
+diamond_sweep_0011
+	bounds: 1519, 143, 52, 92
+	offsets: 45, 16, 134, 113
+diamond_sweep_0012
+	bounds: 1547, 29, 51, 89
+	offsets: 49, 19, 134, 113
+diamond_sweep_0013
+	bounds: 1600, 57, 50, 85
+	offsets: 53, 22, 134, 113
+diamond_sweep_0014
+	bounds: 1626, 155, 50, 80
+	offsets: 57, 25, 134, 113
+diamond_sweep_0015
+	bounds: 1678, 159, 50, 76
+	offsets: 61, 28, 134, 113
+diamond_sweep_0016
+	bounds: 751, 5, 50, 70
+	offsets: 65, 31, 134, 113
+diamond_sweep_0017
+	bounds: 1730, 170, 46, 65
+	offsets: 70, 34, 134, 113
+diamond_sweep_0018
+	bounds: 2, 2, 40, 56
+	offsets: 74, 38, 134, 113
+	rotate: 90
+diamond_sweep_0019
+	bounds: 1752, 120, 34, 48
+	offsets: 78, 42, 134, 113
+frame
+	bounds: 195, 44, 190, 191
+	offsets: 1, 1, 192, 193
+frame_sweep_0000
+	bounds: 399, 4, 14, 59
+	offsets: 48, 49, 192, 193
+frame_sweep_0001
+	bounds: 1238, 7, 27, 94
+	offsets: 48, 49, 192, 193
+frame_sweep_0002
+	bounds: 120, 4, 38, 95
+	offsets: 48, 49, 192, 193
+	rotate: 90
+frame_sweep_0003
+	bounds: 415, 7, 56, 107
+	offsets: 40, 37, 192, 193
+	rotate: 90
+frame_sweep_0004
+	bounds: 627, 5, 70, 122
+	offsets: 37, 32, 192, 193
+	rotate: 90
+frame_sweep_0005
+	bounds: 1275, 106, 80, 129
+	offsets: 37, 35, 192, 193
+frame_sweep_0006
+	bounds: 863, 99, 90, 136
+	offsets: 36, 30, 192, 193
+frame_sweep_0007
+	bounds: 764, 99, 97, 136
+	offsets: 37, 30, 192, 193
+frame_sweep_0008
+	bounds: 1070, 101, 101, 134
+	offsets: 42, 30, 192, 193
+frame_sweep_0009
+	bounds: 803, 2, 95, 134
+	offsets: 49, 30, 192, 193
+	rotate: 90
+frame_sweep_0010
+	bounds: 994, 2, 97, 134
+	offsets: 49, 30, 192, 193
+	rotate: 90
+frame_sweep_0011
+	bounds: 1173, 103, 100, 132
+	offsets: 51, 32, 192, 193
+frame_sweep_0012
+	bounds: 1301, 12, 92, 128
+	offsets: 61, 36, 192, 193
+	rotate: 90
+frame_sweep_0013
+	bounds: 1357, 114, 83, 121
+	offsets: 71, 45, 192, 193
+frame_sweep_0014
+	bounds: 1442, 119, 75, 116
+	offsets: 82, 49, 192, 193
+frame_sweep_0015
+	bounds: 1481, 2, 64, 115
+	offsets: 92, 49, 192, 193
+frame_sweep_0016
+	bounds: 1431, 4, 48, 108
+	offsets: 102, 50, 192, 193
+frame_sweep_0017
+	bounds: 1267, 8, 32, 93
+	offsets: 112, 52, 192, 193
+frame_sweep_0018
+	bounds: 1519, 120, 21, 65
+	offsets: 123, 79, 192, 193
+	rotate: 90
+frame_sweep_0019
+	bounds: 387, 44, 10, 19
+	offsets: 133, 125, 192, 193
+glow
+	bounds: 625, 77, 158, 137
+	offsets: 2, 3, 162, 143
+	rotate: 90
+holdspin
+	bounds: 557, 73, 162, 66
+	offsets: 2, 2, 165, 71
+	rotate: 90
+placeholder
+	bounds: 217, 3, 1, 1
+plate
+	bounds: 217, 6, 177, 36
+	offsets: 1, 1, 179, 38

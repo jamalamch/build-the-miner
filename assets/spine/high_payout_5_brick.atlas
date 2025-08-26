@@ -1,0 +1,27 @@
+high_payout_5_brick.png
+	size: 330, 413
+	filter: Linear, Linear
+bg
+	bounds: 2, 43, 175, 178
+	offsets: 1, 1, 177, 180
+	rotate: 90
+brick
+	bounds: 182, 59, 106, 111
+	offsets: 1, 1, 108, 113
+	rotate: 90
+brick_glow
+	bounds: 195, 284, 127, 133
+	offsets: 4, 4, 135, 140
+	rotate: 90
+frame
+	bounds: 2, 220, 191, 191
+	offsets: 1, 1, 193, 193
+frame_glow
+	bounds: 195, 167, 115, 126
+	offsets: 40, 35, 193, 193
+	rotate: 90
+placeholder
+	bounds: 323, 281, 1, 1
+plate
+	bounds: 2, 2, 192, 39
+	offsets: 1, 1, 194, 41

@@ -1,0 +1,23 @@
+high_payout_5_stone.png
+	size: 653, 201
+	filter: Linear, Linear
+bg
+	bounds: 195, 21, 175, 178
+	offsets: 1, 1, 177, 180
+frame
+	bounds: 2, 8, 191, 191
+	offsets: 1, 1, 193, 193
+frame_glow
+	bounds: 510, 84, 115, 126
+	offsets: 40, 35, 193, 193
+	rotate: 90
+placeholder
+	bounds: 2, 5, 1, 1
+plate
+	bounds: 459, 43, 192, 39
+	offsets: 1, 1, 194, 41
+spark
+	bounds: 372, 2, 85, 85
+stone
+	bounds: 372, 89, 136, 110
+	offsets: 0, 5, 136, 115

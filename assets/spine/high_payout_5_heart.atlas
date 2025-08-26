@@ -1,0 +1,25 @@
+high_payout_5_heart.png
+	size: 889, 198
+	filter: Linear, Linear
+bg
+	bounds: 195, 16, 177, 180
+	offsets: 1, 1, 179, 182
+frame
+	bounds: 2, 5, 191, 191
+	offsets: 1, 1, 193, 193
+frame_glow
+	bounds: 685, 70, 115, 126
+	offsets: 40, 35, 193, 193
+glow
+	bounds: 374, 25, 171, 171
+	offsets: 1, 1, 173, 173
+heart
+	bounds: 547, 43, 153, 136
+	rotate: 90
+placeholder
+	bounds: 2, 2, 1, 1
+plate
+	bounds: 547, 2, 192, 39
+	offsets: 1, 1, 194, 41
+spark
+	bounds: 802, 111, 85, 85

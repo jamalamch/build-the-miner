@@ -1,0 +1,24 @@
+high_payout_5_gem.png
+	size: 849, 198
+	filter: Linear, Linear
+bg
+	bounds: 195, 18, 175, 178
+	offsets: 1, 1, 177, 180
+frame
+	bounds: 2, 5, 191, 191
+	offsets: 1, 1, 193, 193
+frame_glow
+	bounds: 527, 70, 115, 126
+	offsets: 40, 35, 193, 193
+gem
+	bounds: 644, 80, 116, 116
+glow
+	bounds: 372, 43, 153, 153
+	offsets: 2, 2, 157, 157
+placeholder
+	bounds: 644, 77, 1, 1
+plate
+	bounds: 372, 2, 192, 39
+	offsets: 1, 1, 194, 41
+spark
+	bounds: 762, 111, 85, 85

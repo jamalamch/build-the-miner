@@ -1,0 +1,486 @@
+{
+"skeleton": { "hash": "4/C97Zk7+6A", "spine": "4.2.36", "images": "G:/Dyski współdzielone/Gammastack/Exa Gaming Slots/017 - The Miner/SOURCE/source/big_win/images", "audio": "./audio" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "main", "parent": "root" },
+	{ "name": "submain", "parent": "main" },
+	{ "name": "big", "parent": "submain", "x": 1, "y": 167 },
+	{ "name": "win", "parent": "submain", "y": -17 },
+	{ "name": "wood_sign", "parent": "submain", "x": 6.5 },
+	{ "name": "stone", "parent": "submain", "x": 241.5, "y": 110 },
+	{ "name": "Light Effect", "parent": "submain", "x": 2, "y": -2 },
+	{ "name": "counter", "parent": "submain", "x": 0.5, "y": -300 }
+],
+"slots": [
+	{ "name": "Light Effect", "bone": "Light Effect", "color": "ffffff00", "attachment": "Light Effect" },
+	{ "name": "Light Effect2", "bone": "Light Effect", "color": "ffffff00", "attachment": "Light Effect", "blend": "additive" },
+	{ "name": "wood_sign", "bone": "wood_sign", "color": "ffffff00", "attachment": "wood_sign" },
+	{ "name": "big", "bone": "big", "color": "ffffff00", "attachment": "big" },
+	{ "name": "stone", "bone": "stone", "color": "ffffff00", "attachment": "stone" },
+	{ "name": "win", "bone": "win", "color": "ffffff00", "attachment": "win" },
+	{ "name": "counter", "bone": "counter", "attachment": "placeholder" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"big": {
+				"big": { "width": 388, "height": 178 }
+			},
+			"counter": {
+				"placeholder": { "width": 1, "height": 1 }
+			},
+			"Light Effect": {
+				"Light Effect": { "width": 1458, "height": 1458 }
+			},
+			"Light Effect2": {
+				"Light Effect": { "width": 1458, "height": 1458 }
+			},
+			"stone": {
+				"stone": { "width": 205, "height": 208 }
+			},
+			"win": {
+				"win": { "width": 414, "height": 196 }
+			},
+			"wood_sign": {
+				"wood_sign": { "width": 975, "height": 200 }
+			}
+		}
+	}
+],
+"animations": {
+	"in": {
+		"slots": {
+			"big": {
+				"rgba": [
+					{
+						"color": "ffffff00",
+						"curve": [ 0.056, 1, 0.111, 1, 0.056, 1, 0.111, 1, 0.056, 1, 0.111, 1, 0.056, 0, 0.111, 1 ]
+					},
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"Light Effect": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			},
+			"Light Effect2": {
+				"rgba": [
+					{
+						"color": "ffffff00",
+						"curve": [ 0.167, 1, 0.333, 1, 0.167, 1, 0.333, 1, 0.167, 1, 0.333, 1, 0.167, 0, 0.333, 0.69 ]
+					},
+					{
+						"time": 0.5,
+						"color": "ffffffb1",
+						"curve": [ 0.667, 1, 0.833, 1, 0.667, 1, 0.833, 1, 0.667, 1, 0.833, 1, 0.667, 0.69, 0.833, 0 ]
+					},
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"stone": {
+				"rgba": [
+					{ "time": 0.3333, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" }
+				]
+			},
+			"win": {
+				"rgba": [
+					{
+						"time": 0.1667,
+						"color": "ffffff00",
+						"curve": [ 0.222, 1, 0.278, 1, 0.222, 1, 0.278, 1, 0.222, 1, 0.278, 1, 0.222, 0, 0.278, 1 ]
+					},
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			},
+			"wood_sign": {
+				"rgba": [
+					{ "time": 0.1, "color": "ffffff00" },
+					{ "time": 0.2667, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"big": {
+				"scale": [
+					{
+						"x": 5,
+						"y": 5,
+						"curve": [ 0.047, 3.559, 0.178, 0.9, 0.047, 3.559, 0.178, 0.9 ]
+					},
+					{
+						"time": 0.2667,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.311, 0.9, 0.356, 1.1, 0.311, 0.9, 0.356, 1.1 ]
+					},
+					{
+						"time": 0.4,
+						"x": 1.1,
+						"y": 1.1,
+						"curve": [ 0.433, 1.1, 0.467, 1, 0.433, 1.1, 0.467, 1 ]
+					},
+					{
+						"time": 0.5,
+						"curve": [ 0.589, 1, 0.679, 1.1, 0.589, 1, 0.679, 1.1 ]
+					},
+					{
+						"time": 0.7667,
+						"x": 1.1,
+						"y": 1.1,
+						"curve": [ 0.846, 1.1, 0.923, 1, 0.846, 1.1, 0.923, 1 ]
+					},
+					{ "time": 1 }
+				]
+			},
+			"Light Effect": {
+				"scale": [
+					{
+						"curve": [ 0.089, 1, 0.178, 1.387, 0.089, 1, 0.178, 1.387 ]
+					},
+					{
+						"time": 0.2667,
+						"x": 1.387,
+						"y": 1.387,
+						"curve": [ 0.344, 1.387, 0.422, 0.85, 0.344, 1.387, 0.422, 0.85 ]
+					},
+					{
+						"time": 0.5,
+						"x": 0.85,
+						"y": 0.85,
+						"curve": [ 0.556, 0.85, 0.611, 1.059, 0.556, 0.85, 0.611, 1.059 ]
+					},
+					{
+						"time": 0.6667,
+						"x": 1.059,
+						"y": 1.059,
+						"curve": [ 0.722, 1.059, 0.778, 1, 0.722, 1.059, 0.778, 1 ]
+					},
+					{ "time": 0.8333 }
+				]
+			},
+			"stone": {
+				"scale": [
+					{ "x": 0.275, "y": 0.275, "curve": "stepped" },
+					{
+						"time": 0.3333,
+						"x": 0.275,
+						"y": 0.275,
+						"curve": [ 0.422, 0.275, 0.511, 1.261, 0.422, 0.275, 0.511, 1.261 ]
+					},
+					{
+						"time": 0.6,
+						"x": 1.261,
+						"y": 1.261,
+						"curve": [ 0.644, 1.261, 0.689, 0.893, 0.644, 1.261, 0.689, 0.893 ]
+					},
+					{
+						"time": 0.7333,
+						"x": 0.893,
+						"y": 0.893,
+						"curve": [ 0.767, 0.893, 0.8, 1, 0.767, 0.893, 0.8, 1 ]
+					},
+					{ "time": 0.8333 }
+				]
+			},
+			"win": {
+				"scale": [
+					{ "x": 5, "y": 5, "curve": "stepped" },
+					{
+						"time": 0.1667,
+						"x": 5,
+						"y": 5,
+						"curve": [ 0.236, 3.404, 0.344, 0.9, 0.236, 3.404, 0.344, 0.9 ]
+					},
+					{
+						"time": 0.4333,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0.478, 0.9, 0.522, 1.1, 0.478, 0.9, 0.522, 1.1 ]
+					},
+					{
+						"time": 0.5667,
+						"x": 1.1,
+						"y": 1.1,
+						"curve": [ 0.6, 1.1, 0.633, 1, 0.6, 1.1, 0.633, 1 ]
+					},
+					{
+						"time": 0.6667,
+						"curve": [ 0.723, 1, 0.779, 1.1, 0.723, 1, 0.779, 1.1 ]
+					},
+					{
+						"time": 0.8333,
+						"x": 1.1,
+						"y": 1.1,
+						"curve": [ 0.89, 1.1, 0.945, 1, 0.89, 1.1, 0.945, 1 ]
+					},
+					{ "time": 1 }
+				]
+			},
+			"wood_sign": {
+				"scale": [
+					{ "x": 0.275, "y": 0.275, "curve": "stepped" },
+					{
+						"time": 0.1,
+						"x": 0.275,
+						"y": 0.275,
+						"curve": [ 0.189, 0.275, 0.278, 1.261, 0.189, 0.275, 0.278, 1.261 ]
+					},
+					{
+						"time": 0.3667,
+						"x": 1.261,
+						"y": 1.261,
+						"curve": [ 0.411, 1.261, 0.456, 0.893, 0.411, 1.261, 0.456, 0.893 ]
+					},
+					{
+						"time": 0.5,
+						"x": 0.893,
+						"y": 0.893,
+						"curve": [ 0.533, 0.893, 0.567, 1, 0.533, 0.893, 0.567, 1 ]
+					},
+					{ "time": 0.6 }
+				]
+			}
+		}
+	},
+	"loop": {
+		"slots": {
+			"big": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"Light Effect": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"Light Effect2": {
+				"rgba": [
+					{
+						"color": "ffffff00",
+						"curve": [ 0.167, 1, 0.333, 1, 0.167, 1, 0.333, 1, 0.167, 1, 0.333, 1, 0.167, 0, 0.333, 0.69 ]
+					},
+					{
+						"time": 0.5,
+						"color": "ffffffb1",
+						"curve": [ 0.667, 1, 0.833, 1, 0.667, 1, 0.833, 1, 0.667, 1, 0.833, 1, 0.667, 0.69, 0.833, 0 ]
+					},
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"stone": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"win": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"wood_sign": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"big": {
+				"scale": [
+					{
+						"curve": [ 0.089, 1, 0.179, 1.218, 0.089, 1, 0.179, 1.218 ]
+					},
+					{
+						"time": 0.2667,
+						"x": 1.218,
+						"y": 1.218,
+						"curve": [ 0.346, 1.218, 0.423, 1, 0.346, 1.218, 0.423, 1 ]
+					},
+					{
+						"time": 0.5,
+						"curve": [ 0.589, 1, 0.679, 1.218, 0.589, 1, 0.679, 1.218 ]
+					},
+					{
+						"time": 0.7667,
+						"x": 1.218,
+						"y": 1.218,
+						"curve": [ 0.846, 1.218, 0.923, 1, 0.846, 1.218, 0.923, 1 ]
+					},
+					{ "time": 1 }
+				]
+			},
+			"Light Effect": {
+				"rotate": [
+					{
+						"curve": [ 0.047, 2.1, 0.156, 9.03 ]
+					},
+					{
+						"time": 0.2333,
+						"value": 9.03,
+						"curve": [ 0.411, 9.03, 0.589, -11.18 ]
+					},
+					{
+						"time": 0.7667,
+						"value": -11.18,
+						"curve": [ 0.844, -11.18, 0.952, -3.13 ]
+					},
+					{ "time": 1 }
+				],
+				"scale": [
+					{
+						"curve": [ 0.167, 1, 0.333, 1.266, 0.167, 1, 0.333, 1.266 ]
+					},
+					{
+						"time": 0.5,
+						"x": 1.266,
+						"y": 1.266,
+						"curve": [ 0.667, 1.266, 0.833, 1, 0.667, 1.266, 0.833, 1 ]
+					},
+					{ "time": 1 }
+				]
+			},
+			"stone": {
+				"scale": [
+					{
+						"curve": [ 0.167, 1, 0.333, 1.266, 0.167, 1, 0.333, 1.266 ]
+					},
+					{
+						"time": 0.5,
+						"x": 1.266,
+						"y": 1.266,
+						"curve": [ 0.667, 1.266, 0.833, 1, 0.667, 1.266, 0.833, 1 ]
+					},
+					{ "time": 1 }
+				]
+			}
+		}
+	},
+	"out": {
+		"slots": {
+			"big": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.7667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"Light Effect": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.7667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"Light Effect2": {
+				"rgba": [
+					{
+						"color": "ffffff00",
+						"curve": [ 0.167, 1, 0.333, 1, 0.167, 1, 0.333, 1, 0.167, 1, 0.333, 1, 0.167, 0, 0.333, 0.69 ]
+					},
+					{
+						"time": 0.5,
+						"color": "ffffffb1",
+						"curve": [ 0.667, 1, 0.833, 1, 0.667, 1, 0.833, 1, 0.667, 1, 0.833, 1, 0.667, 0.69, 0.833, 0 ]
+					},
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"stone": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.7667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"win": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.7667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"wood_sign": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.7667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"big": {
+				"scale": [
+					{
+						"curve": [ 0.089, 1, 0.179, 1.218, 0.089, 1, 0.179, 1.218 ]
+					},
+					{
+						"time": 0.2667,
+						"x": 1.218,
+						"y": 1.218,
+						"curve": [ 0.346, 1.218, 0.423, 1, 0.346, 1.218, 0.423, 1 ]
+					},
+					{
+						"time": 0.5,
+						"curve": [ 0.589, 1, 0.679, 1.218, 0.589, 1, 0.679, 1.218 ]
+					},
+					{
+						"time": 0.7667,
+						"x": 1.218,
+						"y": 1.218,
+						"curve": [ 0.846, 1.218, 0.923, 1, 0.846, 1.218, 0.923, 1 ]
+					},
+					{ "time": 1 }
+				]
+			},
+			"Light Effect": {
+				"rotate": [
+					{
+						"curve": [ 0.047, 2.1, 0.156, 9.03 ]
+					},
+					{
+						"time": 0.2333,
+						"value": 9.03,
+						"curve": [ 0.411, 9.03, 0.589, -11.18 ]
+					},
+					{
+						"time": 0.7667,
+						"value": -11.18,
+						"curve": [ 0.844, -11.18, 0.952, -3.13 ]
+					},
+					{ "time": 1 }
+				],
+				"scale": [
+					{
+						"curve": [ 0.167, 1, 0.333, 1.266, 0.167, 1, 0.333, 1.266 ]
+					},
+					{
+						"time": 0.5,
+						"x": 1.266,
+						"y": 1.266,
+						"curve": [ 0.667, 1.266, 0.833, 1, 0.667, 1.266, 0.833, 1 ]
+					},
+					{ "time": 1 }
+				]
+			},
+			"stone": {
+				"scale": [
+					{
+						"curve": [ 0.167, 1, 0.333, 1.266, 0.167, 1, 0.333, 1.266 ]
+					},
+					{
+						"time": 0.5,
+						"x": 1.266,
+						"y": 1.266,
+						"curve": [ 0.667, 1.266, 0.833, 1, 0.667, 1.266, 0.833, 1 ]
+					},
+					{ "time": 1 }
+				]
+			}
+		}
+	}
+}
+}

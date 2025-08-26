@@ -1,0 +1,34 @@
+mega_win.png
+size:2552,1464
+filter:Linear,Linear
+Light Effect
+bounds:2,5,1456,1456
+offsets:1,1,1458,1458
+MEGA
+bounds:2372,848,613,176
+offsets:1,1,615,178
+rotate:90
+Meter Panel
+bounds:1460,778,910,683
+offsets:1,1,912,685
+axe2
+bounds:1460,82,439,494
+offsets:1,1,441,496
+green_gem
+bounds:2202,219,161,161
+offsets:1,1,163,163
+green_gem2
+bounds:2315,414,162,161
+offsets:1,1,164,163
+rotate:90
+heart
+bounds:1901,117,299,263
+offsets:1,1,301,265
+placeholder
+bounds:2,2,1,1
+win
+bounds:1901,382,412,194
+offsets:1,1,414,196
+wood_sign
+bounds:1460,578,973,198
+offsets:1,1,975,200

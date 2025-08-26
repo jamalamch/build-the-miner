@@ -1,0 +1,39 @@
+high_payout_4.png
+	size: 783, 218
+	filter: Linear, Linear
+all_gold
+	bounds: 539, 2, 106, 51
+	offsets: 1, 1, 108, 62
+bg
+	bounds: 195, 37, 175, 179
+	offsets: 1, 1, 177, 181
+cart
+	bounds: 539, 55, 161, 125
+	offsets: 1, 9, 163, 135
+	rotate: 90
+frame
+	bounds: 2, 25, 191, 191
+	offsets: 1, 1, 193, 193
+frame_glow
+	bounds: 666, 90, 115, 126
+	offsets: 40, 35, 193, 193
+glow
+	bounds: 372, 50, 166, 165
+	offsets: 3, 4, 172, 172
+	rotate: 90
+gold_piece
+	bounds: 274, 5, 36, 30
+	offsets: 2, 1, 39, 32
+spark
+	bounds: 666, 3, 85, 85
+wheel
+	bounds: 372, 6, 34, 42
+	offsets: 1, 1, 36, 44
+wheel2
+	bounds: 234, 6, 29, 38
+	offsets: 1, 1, 31, 40
+	rotate: 90
+wheel3
+	bounds: 195, 5, 30, 37
+	offsets: 1, 1, 32, 39
+	rotate: 90

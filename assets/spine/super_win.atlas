@@ -1,0 +1,24 @@
+super_win.png
+size:1856,1460
+filter:Linear,Linear
+Light Effect
+bounds:2,2,1456,1456
+offsets:1,1,1458,1458
+SUPER
+bounds:1660,12,679,176
+offsets:1,1,681,178
+rotate:90
+placeholder
+bounds:1460,129,1,1
+stn
+bounds:1460,1107,351,294
+offsets:1,1,353,296
+rotate:90
+win
+bounds:1660,693,412,194
+offsets:1,1,414,196
+rotate:90
+wood_sign
+bounds:1460,132,973,198
+offsets:1,1,975,200
+rotate:90

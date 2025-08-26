@@ -1,0 +1,1222 @@
+{
+"skeleton": { "hash": "k6QR1d5j5LU", "spine": "4.2.36", "x": -969, "y": -378, "width": 1932, "height": 755.5 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "main", "parent": "root" },
+	{ "name": "submain", "parent": "main" },
+	{ "name": "congratulations", "parent": "submain", "x": -3, "y": 186.5 },
+	{ "name": "spins_count", "parent": "submain", "x": -10, "y": 26 },
+	{ "name": "placeholder", "parent": "submain", "x": -7.5 },
+	{ "name": "4_freespin", "parent": "submain", "x": -0.5, "y": -1.71 },
+	{ "name": "extra_spins_count", "parent": "submain", "x": 269.63, "y": -152.25 }
+],
+"slots": [
+	{ "name": "base", "bone": "submain", "color": "ffffff00", "attachment": "base" },
+	{ "name": "congratulations", "bone": "congratulations", "color": "ffffff00", "attachment": "congratulations" },
+	{ "name": "congratulations2", "bone": "congratulations", "color": "ffffff00", "attachment": "congratulations_sweep_", "blend": "additive" },
+	{ "name": "wood_sign", "bone": "submain", "color": "ffffff00", "attachment": "wood_sign" },
+	{ "name": "axe", "bone": "submain", "color": "ffffff00", "attachment": "axe" },
+	{ "name": "2, 3, 4_axe", "bone": "submain", "color": "ffffff00", "attachment": "2, 3, 4_axe" },
+	{ "name": "press", "bone": "submain", "color": "ffffff00", "attachment": "press" },
+	{ "name": "you have won", "bone": "submain", "color": "ffffff00", "attachment": "you have won" },
+	{ "name": "4_freespin", "bone": "4_freespin", "color": "ffffff00", "attachment": "4_freespin" },
+	{ "name": "4_ARE NOW X10", "bone": "submain", "color": "ffffff00", "attachment": "4_ARE NOW X10" },
+	{ "name": "3_hold and spinner", "bone": "submain", "color": "ffffff00", "attachment": "3_hold and spinner" },
+	{ "name": "placeholder", "bone": "placeholder", "color": "ffffff00", "attachment": "2_placeholder" },
+	{ "name": "1_Character", "bone": "submain", "color": "ffffff00", "attachment": "1_Character" },
+	{ "name": "1_freespin", "bone": "submain", "color": "ffffff00", "attachment": "1_freespin" },
+	{ "name": "spins_count", "bone": "spins_count", "color": "ffffff00", "attachment": "1_placeholder" },
+	{ "name": "extra_spins_count", "bone": "extra_spins_count", "color": "ffffff00", "attachment": "1_placeholder" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"1_Character": {
+				"1_Character": { "x": -226, "y": -48, "width": 288, "height": 406 }
+			},
+			"1_freespin": {
+				"1_freespin": { "x": -6, "y": -124, "width": 656, "height": 146 }
+			},
+			"3_hold and spinner": {
+				"3_hold and spinner": { "x": -1.5, "y": -56.5, "width": 587, "height": 193 }
+			},
+			"4_ARE NOW X10": {
+				"4_ARE NOW X10": { "x": -69.37, "y": -137.5, "width": 495, "height": 139 }
+			},
+			"4_freespin": {
+				"4_freespin": { "width": 629, "height": 120 }
+			},
+			"2, 3, 4_axe": {
+				"2, 3, 4_axe": { "x": -270.5, "y": -75, "width": 351, "height": 396 }
+			},
+			"axe": {
+				"axe": { "x": 258.5, "y": -75, "width": 351, "height": 396 }
+			},
+			"base": {
+				"base": { "y": -0.5, "width": 1026, "height": 755 }
+			},
+			"congratulations": {
+				"congratulations": { "width": 966, "height": 191 }
+			},
+			"congratulations2": {
+				"congratulations_sweep_": {
+					"scaleX": 2,
+					"scaleY": 2,
+					"width": 966,
+					"height": 191,
+					"sequence": { "count": 30, "start": 0, "digits": 4 }
+				}
+			},
+			"extra_spins_count": {
+				"1_placeholder": { "width": 192, "height": 120 }
+			},
+			"placeholder": {
+				"2_placeholder": { "width": 347, "height": 76 }
+			},
+			"press": {
+				"press": { "x": -6, "y": -273, "width": 586, "height": 28 }
+			},
+			"spins_count": {
+				"1_placeholder": { "width": 192, "height": 120 }
+			},
+			"wood_sign": {
+				"wood_sign": { "x": -1.5, "y": -2, "width": 775, "height": 160 }
+			},
+			"you have won": {
+				"you have won": { "x": -7.5, "y": 145, "width": 287, "height": 28 }
+			}
+		}
+	}
+],
+"animations": {
+	"congratulation_in": {
+		"slots": {
+			"2, 3, 4_axe": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"axe": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"base": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"congratulations": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"congratulations2": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffad" }
+				]
+			},
+			"placeholder": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"press": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"wood_sign": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"you have won": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"submain": {
+				"scale": [
+					{
+						"x": 5,
+						"y": 5,
+						"curve": [ 0.089, 5, 0.178, 0.85, 0.089, 5, 0.178, 0.85 ]
+					},
+					{
+						"time": 0.2667,
+						"x": 0.85,
+						"y": 0.85,
+						"curve": [ 0.311, 0.85, 0.356, 1.1, 0.311, 0.85, 0.356, 1.1 ]
+					},
+					{
+						"time": 0.4,
+						"x": 1.1,
+						"y": 1.1,
+						"curve": [ 0.433, 1.1, 0.467, 1, 0.433, 1.1, 0.467, 1 ]
+					},
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 1 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"congratulations2": {
+					"congratulations_sweep_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				}
+			}
+		}
+	},
+	"congratulation_loop": {
+		"slots": {
+			"2, 3, 4_axe": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"axe": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"base": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"congratulations": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"congratulations2": {
+				"rgba": [
+					{ "color": "ffffffad" }
+				]
+			},
+			"placeholder": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"press": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"wood_sign": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"you have won": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"congratulations": {
+				"scale": [
+					{
+						"curve": [ 0.167, 1, 0.333, 1.129, 0.167, 1, 0.333, 1.129 ]
+					},
+					{
+						"time": 0.5,
+						"x": 1.129,
+						"y": 1.129,
+						"curve": [ 0.667, 1.129, 0.833, 1, 0.667, 1.129, 0.833, 1 ]
+					},
+					{ "time": 1 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"congratulations2": {
+					"congratulations_sweep_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				}
+			}
+		}
+	},
+	"congratulation_out": {
+		"slots": {
+			"2, 3, 4_axe": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"axe": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"base": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"congratulations": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"congratulations2": {
+				"rgba": [
+					{ "color": "ffffffad", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffad" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"placeholder": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"press": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"wood_sign": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"you have won": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"congratulations": {
+				"scale": [
+					{
+						"curve": [ 0.167, 1, 0.333, 1.129, 0.167, 1, 0.333, 1.129 ]
+					},
+					{
+						"time": 0.5,
+						"x": 1.129,
+						"y": 1.129,
+						"curve": [ 0.667, 1.129, 0.833, 1, 0.667, 1.129, 0.833, 1 ]
+					},
+					{ "time": 1 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"congratulations2": {
+					"congratulations_sweep_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				}
+			}
+		}
+	},
+	"extra_spin_in": {
+		"slots": {
+			"4_ARE NOW X10": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"4_freespin": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"2, 3, 4_axe": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"axe": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"base": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"congratulations": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"congratulations2": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffad" }
+				]
+			},
+			"extra_spins_count": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" }
+				]
+			},
+			"press": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"spins_count": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1333, "color": "ffffffff" }
+				]
+			},
+			"wood_sign": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"you have won": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"submain": {
+				"scale": [
+					{
+						"x": 5,
+						"y": 5,
+						"curve": [ 0.089, 5, 0.178, 0.85, 0.089, 5, 0.178, 0.85 ]
+					},
+					{
+						"time": 0.2667,
+						"x": 0.85,
+						"y": 0.85,
+						"curve": [ 0.311, 0.85, 0.356, 1.1, 0.311, 0.85, 0.356, 1.1 ]
+					},
+					{
+						"time": 0.4,
+						"x": 1.1,
+						"y": 1.1,
+						"curve": [ 0.433, 1.1, 0.467, 1, 0.433, 1.1, 0.467, 1 ]
+					},
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 1 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"congratulations2": {
+					"congratulations_sweep_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				}
+			}
+		}
+	},
+	"extra_spin_loop": {
+		"slots": {
+			"4_ARE NOW X10": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"4_freespin": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"2, 3, 4_axe": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"axe": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"base": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"congratulations": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"congratulations2": {
+				"rgba": [
+					{ "color": "ffffffad" }
+				]
+			},
+			"extra_spins_count": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"press": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"spins_count": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"wood_sign": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"you have won": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"congratulations": {
+				"scale": [
+					{
+						"curve": [ 0.167, 1, 0.333, 1.129, 0.167, 1, 0.333, 1.129 ]
+					},
+					{
+						"time": 0.5,
+						"x": 1.129,
+						"y": 1.129,
+						"curve": [ 0.667, 1.129, 0.833, 1, 0.667, 1.129, 0.833, 1 ]
+					},
+					{ "time": 1 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"congratulations2": {
+					"congratulations_sweep_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				}
+			}
+		}
+	},
+	"extra_spin_out": {
+		"slots": {
+			"4_ARE NOW X10": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"4_freespin": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"2, 3, 4_axe": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"axe": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"base": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"congratulations": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"congratulations2": {
+				"rgba": [
+					{ "color": "ffffffad", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffad" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"extra_spins_count": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"press": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"spins_count": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"wood_sign": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"you have won": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"congratulations": {
+				"scale": [
+					{
+						"curve": [ 0.167, 1, 0.333, 1.129, 0.167, 1, 0.333, 1.129 ]
+					},
+					{
+						"time": 0.5,
+						"x": 1.129,
+						"y": 1.129,
+						"curve": [ 0.667, 1.129, 0.833, 1, 0.667, 1.129, 0.833, 1 ]
+					},
+					{ "time": 1 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"congratulations2": {
+					"congratulations_sweep_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				}
+			}
+		}
+	},
+	"freegame_in": {
+		"slots": {
+			"1_Character": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"1_freespin": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"axe": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"base": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"congratulations": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"congratulations2": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffad" }
+				]
+			},
+			"press": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"spins_count": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"wood_sign": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"you have won": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"submain": {
+				"scale": [
+					{
+						"x": 5,
+						"y": 5,
+						"curve": [ 0.089, 5, 0.178, 0.85, 0.089, 5, 0.178, 0.85 ]
+					},
+					{
+						"time": 0.2667,
+						"x": 0.85,
+						"y": 0.85,
+						"curve": [ 0.311, 0.85, 0.356, 1.1, 0.311, 0.85, 0.356, 1.1 ]
+					},
+					{
+						"time": 0.4,
+						"x": 1.1,
+						"y": 1.1,
+						"curve": [ 0.433, 1.1, 0.467, 1, 0.433, 1.1, 0.467, 1 ]
+					},
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 1 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"congratulations2": {
+					"congratulations_sweep_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				}
+			}
+		}
+	},
+	"freegame_loop": {
+		"slots": {
+			"1_Character": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"1_freespin": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"axe": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"base": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"congratulations": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"congratulations2": {
+				"rgba": [
+					{ "color": "ffffffad" }
+				]
+			},
+			"press": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"spins_count": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"wood_sign": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"you have won": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"congratulations": {
+				"scale": [
+					{
+						"curve": [ 0.167, 1, 0.333, 1.129, 0.167, 1, 0.333, 1.129 ]
+					},
+					{
+						"time": 0.5,
+						"x": 1.129,
+						"y": 1.129,
+						"curve": [ 0.667, 1.129, 0.833, 1, 0.667, 1.129, 0.833, 1 ]
+					},
+					{ "time": 1 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"congratulations2": {
+					"congratulations_sweep_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				}
+			}
+		}
+	},
+	"freegame_out": {
+		"slots": {
+			"1_Character": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"1_freespin": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"axe": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"base": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"congratulations": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"congratulations2": {
+				"rgba": [
+					{ "color": "ffffffad", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffad" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"press": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"spins_count": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"wood_sign": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"you have won": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"congratulations": {
+				"scale": [
+					{
+						"curve": [ 0.167, 1, 0.333, 1.129, 0.167, 1, 0.333, 1.129 ]
+					},
+					{
+						"time": 0.5,
+						"x": 1.129,
+						"y": 1.129,
+						"curve": [ 0.667, 1.129, 0.833, 1, 0.667, 1.129, 0.833, 1 ]
+					},
+					{ "time": 1 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"congratulations2": {
+					"congratulations_sweep_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				}
+			}
+		}
+	},
+	"hold_spin_in": {
+		"slots": {
+			"3_hold and spinner": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"2, 3, 4_axe": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"axe": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"base": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"congratulations": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"congratulations2": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffad" }
+				]
+			},
+			"press": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"wood_sign": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			},
+			"you have won": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"submain": {
+				"scale": [
+					{
+						"x": 5,
+						"y": 5,
+						"curve": [ 0.089, 5, 0.178, 0.85, 0.089, 5, 0.178, 0.85 ]
+					},
+					{
+						"time": 0.2667,
+						"x": 0.85,
+						"y": 0.85,
+						"curve": [ 0.311, 0.85, 0.356, 1.1, 0.311, 0.85, 0.356, 1.1 ]
+					},
+					{
+						"time": 0.4,
+						"x": 1.1,
+						"y": 1.1,
+						"curve": [ 0.433, 1.1, 0.467, 1, 0.433, 1.1, 0.467, 1 ]
+					},
+					{ "time": 0.5, "curve": "stepped" },
+					{ "time": 1 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"congratulations2": {
+					"congratulations_sweep_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				}
+			}
+		}
+	},
+	"hold_spin_loop": {
+		"slots": {
+			"3_hold and spinner": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"2, 3, 4_axe": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"axe": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"base": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"congratulations": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"congratulations2": {
+				"rgba": [
+					{ "color": "ffffffad" }
+				]
+			},
+			"press": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"wood_sign": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			},
+			"you have won": {
+				"rgba": [
+					{ "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"congratulations": {
+				"scale": [
+					{
+						"curve": [ 0.167, 1, 0.333, 1.129, 0.167, 1, 0.333, 1.129 ]
+					},
+					{
+						"time": 0.5,
+						"x": 1.129,
+						"y": 1.129,
+						"curve": [ 0.667, 1.129, 0.833, 1, 0.667, 1.129, 0.833, 1 ]
+					},
+					{ "time": 1 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"congratulations2": {
+					"congratulations_sweep_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				}
+			}
+		}
+	},
+	"hold_spin_out": {
+		"slots": {
+			"3_hold and spinner": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"2, 3, 4_axe": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"axe": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"base": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"congratulations": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"congratulations2": {
+				"rgba": [
+					{ "color": "ffffffad", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffad" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"press": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"wood_sign": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"you have won": {
+				"rgba": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"congratulations": {
+				"scale": [
+					{
+						"curve": [ 0.167, 1, 0.333, 1.129, 0.167, 1, 0.333, 1.129 ]
+					},
+					{
+						"time": 0.5,
+						"x": 1.129,
+						"y": 1.129,
+						"curve": [ 0.667, 1.129, 0.833, 1, 0.667, 1.129, 0.833, 1 ]
+					},
+					{ "time": 1 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"congratulations2": {
+					"congratulations_sweep_": {
+						"sequence": [
+							{ "mode": "once", "delay": 0.0333 }
+						]
+					}
+				}
+			}
+		}
+	}
+}
+}

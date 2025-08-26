@@ -1,0 +1,135 @@
+character.png
+	size: 1249, 523
+	filter: Linear, Linear
+body
+	bounds: 654, 212, 266, 309
+	offsets: 50, 24, 396, 507
+bottom
+	bounds: 178, 184, 337, 229
+	rotate: 90
+face
+	bounds: 409, 189, 243, 332
+	offsets: 31, 0, 274, 332
+fx_0000
+	bounds: 684, 106, 54, 82
+	offsets: 57, 94, 174, 418
+fx_0001
+	bounds: 1163, 9, 54, 82
+	offsets: 57, 94, 174, 418
+fx_0002
+	bounds: 811, 10, 66, 200
+	offsets: 42, 94, 174, 418
+fx_0003
+	bounds: 178, 103, 79, 204
+	offsets: 34, 94, 174, 418
+	rotate: 90
+fx_0004
+	bounds: 611, 13, 88, 198
+	offsets: 33, 105, 174, 418
+	rotate: 90
+fx_0005
+	bounds: 190, 13, 88, 209
+	offsets: 35, 100, 174, 418
+	rotate: 90
+fx_0006
+	bounds: 401, 13, 88, 208
+	offsets: 26, 102, 174, 418
+	rotate: 90
+fx_0007
+	bounds: 493, 103, 84, 189
+	offsets: 36, 127, 174, 418
+	rotate: 90
+fx_0008
+	bounds: 922, 358, 69, 163
+	offsets: 34, 146, 174, 418
+fx_0009
+	bounds: 879, 44, 72, 166
+	offsets: 28, 153, 174, 418
+fx_0010
+	bounds: 1132, 225, 66, 132
+	offsets: 27, 167, 174, 418
+fx_0011
+	bounds: 1080, 77, 59, 145
+	offsets: 34, 168, 174, 418
+fx_0012
+	bounds: 740, 176, 34, 66
+	offsets: 35, 218, 174, 418
+	rotate: 90
+fx_0013
+	bounds: 1200, 311, 47, 82
+	offsets: 34, 216, 174, 418
+fx_0014
+	bounds: 953, 61, 65, 152
+	offsets: 23, 175, 174, 418
+fx_0015
+	bounds: 54, 3, 61, 98
+	offsets: 33, 218, 174, 418
+fx_0016
+	bounds: 384, 103, 79, 107
+	offsets: 20, 220, 174, 418
+	rotate: 90
+fx_0017
+	bounds: 117, 3, 1, 1
+fx_0020
+	bounds: 117, 3, 1, 1
+fx_0023
+	bounds: 117, 3, 1, 1
+fx_0018
+	bounds: 1141, 93, 76, 130
+	offsets: 21, 218, 174, 418
+fx_0019
+	bounds: 1064, 224, 66, 133
+	offsets: 31, 222, 174, 418
+fx_0021
+	bounds: 1143, 395, 60, 126
+	offsets: 35, 228, 174, 418
+fx_0022
+	bounds: 1017, 3, 56, 110
+	offsets: 35, 244, 174, 418
+	rotate: 90
+fx_0024
+	bounds: 2, 2, 50, 99
+	offsets: 38, 250, 174, 418
+fx_0025
+	bounds: 117, 6, 4, 14
+	offsets: 58, 335, 174, 418
+	rotate: 90
+fx_0026
+	bounds: 1129, 14, 32, 61
+	offsets: 53, 276, 174, 418
+lt_arm
+	bounds: 922, 215, 140, 141
+	offsets: 0, 2, 140, 143
+lt_ear
+	bounds: 968, 2, 47, 57
+lt_eye
+	bounds: 930, 5, 36, 37
+	offsets: 1, 1, 38, 39
+lt_eye_ball
+	bounds: 654, 189, 19, 21
+	offsets: 1, 1, 21, 23
+lt_hand
+	bounds: 993, 359, 148, 162
+	offsets: 0, 14, 148, 176
+moustache
+	bounds: 1020, 66, 147, 58
+	rotate: 90
+mouth
+	bounds: 1200, 229, 80, 36
+	offsets: 0, 1, 80, 37
+	rotate: 90
+nose
+	bounds: 740, 119, 63, 55
+rt_ear
+	bounds: 879, 2, 40, 49
+	rotate: 90
+rt_eye
+	bounds: 1205, 485, 36, 36
+	offsets: 1, 2, 38, 39
+rt_eye_ball
+	bounds: 675, 190, 19, 20
+	offsets: 1, 1, 21, 22
+rt_hand
+	bounds: 2, 103, 174, 418
+toolbox
+	bounds: 117, 12, 71, 89

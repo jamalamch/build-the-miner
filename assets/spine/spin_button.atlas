@@ -1,0 +1,32 @@
+spin_btn.webp
+	size: 556, 556
+	filter: Linear, Linear
+22
+	bounds: 2, 12, 84, 51
+	offsets: 1, 0, 85, 52
+BaseButton
+	bounds: 2, 65, 236, 236
+BaseButtonHighlight
+	bounds: 256, 318, 236, 236
+MobileOuter
+	bounds: 2, 303, 252, 251
+Stop icon
+	bounds: 388, 35, 108, 117
+	offsets: 0, 0, 108, 123
+exa-icon
+	bounds: 344, 75, 38, 30
+glow
+	bounds: 494, 390, 31, 164
+	offsets: 1, 1, 33, 166
+infinity_icon
+	bounds: 388, 154, 162, 95
+	rotate: 90
+numbers
+	bounds: 527, 511, 43, 26
+	rotate: 90
+ref
+	bounds: 240, 2, 103, 102
+	rotate: 90
+spin-icon
+	bounds: 240, 107, 146, 194
+	offsets: 45, 18, 236, 236
