@@ -3,11 +3,11 @@
   "textures": [
     {
       "name": "loading-screen",
-      "url": "./images/loading-screen-background.png?v=1.0.8.1756213009214"
+      "url": "./images/loading-screen-background.png?v=1.0.8.1756374080606"
     },
     {
       "name": "loading",
-      "url": "./images/loading.json?v=1.0.8.1756213009214"
+      "url": "./images/loading.json?v=1.0.8.1756374080606"
     }
   ],
   "spine": [],
@@ -15,7 +15,7 @@
   "fonts": [
     {
       "name": "Alexandria-Bold",
-      "url": "./fonts/AlexandriaBold.xml?v=1.0.8.1756213009214",
+      "url": "./fonts/AlexandriaBold.xml?v=1.0.8.1756374080606",
       "type": "bitmap"
     }
   ]

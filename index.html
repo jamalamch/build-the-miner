@@ -42,7 +42,7 @@
             }
             
             // Extract parameters from URL
-            const token = getQueryParam('token') || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwbGF5ZXIxIiwianRpIjoiNzg5YjFkYmQtYTM0MS00YWRjLWJjMTEtMWZlNzc3YTA1NTRlIiwidWlkIjoiMTkyIiwib2lkIjoiMSIsInBvaWQiOiIzIiwiY3VyciI6Ik1ZUiIsImxiIjoiWzAuMDEsMC4wMiwwLjAzLDAuMDQsMC4wNSwwLjA2LDAuMDcsMC4wOCwwLjA5LDAuMTAsMC4xNSwwLjIwLDAuMjUsMC4zMCwwLjM1LDAuNDAsMC40NSwwLjUwLDAuNzUsMS4wMCwxLjI1LDEuNTAsMi4wMCwyLjUwLDMuMDAsMy43NSw1LjAwLDcuNTAsMTAuMDBdIiwiciI6IjEiLCJpc3JlIjoiVHJ1ZSIsImV4cCI6MTcyNDg1MDM1MSwiaXNzIjoiNTIiLCJhdWQiOiI4MDAyNiJ9.dYwD6sC0BRvqA1lo_cpNRW2KsMm5lPnBg8Bjm5ztuxI';
+            const token = getQueryParam('token');
             const currency = getQueryParam('currency') || 'EUR';
             const operator = getQueryParam('operator') || '1';
             const language = getQueryParam('lang') || 'EN';
